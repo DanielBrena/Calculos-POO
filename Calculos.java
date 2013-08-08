@@ -59,6 +59,9 @@ public class Calculos
 			if(acum < num){
 				Multiplicar();
 				cont++;
+				if(acum > 9999){
+					acum = 1;
+				}
 			}else{
 				Dividir();
 				cont++;
